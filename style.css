@@ -1,0 +1,9 @@
+body{
+    background: linear-gradient(to top left, powderblue, pink);
+}
+
+.block {
+    border: 2px solid #b7f1ff;
+    padding: 20px;
+    background: #acf19a;
+}
