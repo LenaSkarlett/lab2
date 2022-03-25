@@ -1,4 +1,57 @@
-.text {
+body{
+    background-image: url("../img/фон.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container{
+    width:450px;
+    height: 400px;
+    background-color: rgba(255, 255, 255);
+    margin: 130px auto 0 auto;
+    text-align: center;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.text-center {
     font-size: 28px;
     color: rgb(39, 39, 39);
 } 
+
+input[type="text"],input[type="password"]{
+    width: 250px;
+    height:40px;
+    font-size: 16px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+a{
+    color: rgb(168, 167, 167);
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.dws-submit {
+    padding: 14px 105px;
+    margin: 5px 0 20px 0;
+    font-size: 16px;
+    color: #fff;
+    background-color: #68548a;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dws-submit:hover{
+    transition: all 0.5s;
+    background: rgb(39, 39, 39);
+    color: #ffffff;
+}    
+
